@@ -90,7 +90,7 @@ li.menu-item{
 }
 li.menu-item a{
   padding: .5rem 1rem;
-  color: #fff;
+  /* color: #fff; */
 }
 li.menu-item a:hover{
   color: rgb(164, 48, 164);
