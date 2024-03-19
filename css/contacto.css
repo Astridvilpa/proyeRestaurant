@@ -129,7 +129,7 @@ input#check{
   .header-wrap{
     position: fixed;
     width: 100%;
-    background-color: #fff;
+    /* background-color: #fff; */
     padding: 0;
     top: 0;
     z-index: 9999;
@@ -206,4 +206,155 @@ input#check{
     width: 100%;
     padding: 1em;
   }
+}
+
+.hero-page{
+  background: linear-gradient(to bottom, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(../img/porti2jpg.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap-hero-page{
+  color: #fff;
+  padding: 1rem;
+}
+
+
+.hero-page{
+  background: linear-gradient(to bottom, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(../img/establecimiento\ -\ copia.jpg) center;
+  background-size: cover;
+  height: 200px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap-hero-page{
+  color: #fff;
+  padding: 1rem;
+}
+
+.section{
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 1rem;
+}
+
+.wrap-two-column{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4rem;
+}
+
+
+/* Formulario */
+
+.formulario{
+  display: flex;
+  flex-flow: column;
+}
+
+.formulario input, .formulario textarea{
+  margin: .5rem 0;
+  padding: .5rem .2rem;
+}
+
+.formulario button{
+  width: fit-content;
+  border: none;
+  padding: .5rem 1rem;
+  background-color: #222;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+footer{
+  background-color: #fff;
+  color: var(--black-c);
+}
+
+footer ul{
+  padding: 0;
+}
+
+.wrap-footer{
+  display: grid;
+  grid-template-columns: 30% 15% 15% 20%;
+  column-gap: 5%;
+  padding: 1rem;
+  margin: 2rem auto;
+  max-width: 1200px;
+}
+
+element-footer h5{
+  margin: 1rem 0;
+}
+
+.text-element-footer{
+  line-height: 2;
+}
+
+.text-element-footer li a{
+  color: var(--main-c);
+}
+
+.rrss-element-footer ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rrss-element-footer img{
+  width: 45px;
+}
+.rrss-element-footer li{
+  margin-right: 1rem;
+}
+
+.footer-creds{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  color: #576171;
+  font-size: .9rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.legal-creds ul{
+  display: flex;
+}
+
+.legal-creds ul li{
+  padding-right: 1rem;
+}
+
+.legal-creds ul li a{
+  color: #576171;
+}
+
+@media (max-width:768px){
+  .wrap-footer{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media (max-width:480px){
+  .wrap-footer{
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+
+@media (max-width:320px){
+  .footer-creds{
+    flex-flow: column;
+  }
+}
+
+.a-1{
+  background-color: #576171;
 }
