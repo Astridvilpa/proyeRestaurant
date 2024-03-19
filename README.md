@@ -11,7 +11,7 @@ Al ingresar en la página web del Restaurante JaponSushi Express, se encuentran 
 
 * CRÉDITOS 
 
--El diseño de la interfaz fue creado por mí, Astrid. 
+-  El diseño de la interfaz fue creado por mí, Astrid. 
 - Las imágenes se obtuvieron de varias fuentes, pero la mayoría fueron recopiladas del Restaurante Subaya.
 
 
