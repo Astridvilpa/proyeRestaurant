@@ -179,7 +179,7 @@ input#check{
 
 /* Hero Section HomePage */
 .wrap-header-hero{
-  background: linear-gradient(to bottom, rgb(0 0 0 / .75), rgb(0 0 0 / .5)), url();
+  background: linear-gradient(to bottom, rgb(0 0 0 / .75), rgb(0 0 0 / .5)), url(../img/Gunka4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
