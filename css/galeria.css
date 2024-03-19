@@ -129,7 +129,7 @@ input#check{
   .header-wrap{
     position: fixed;
     width: 100%;
-    background-color: #fff;
+    /* background-color: #fff; */
     padding: 0;
     top: 0;
     z-index: 9999;
@@ -207,3 +207,37 @@ input#check{
     padding: 1em;
   }
 }
+
+ /* Imágenes */
+
+.imagen-galeria, .imagen-galeria img{
+  max-width: 275px;
+  border-radius: 4px;
+}
+
+@media (max-width:880px){
+  .galeria-platos{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+}
+
+.hero-page{
+  background: linear-gradient(to bottom, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(../img/porti2jpg.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap-hero-page{
+  color: #fff;
+  padding: 1rem;
+}
+
+
+    
