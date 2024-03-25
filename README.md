@@ -2,7 +2,7 @@
 
 #   Restaurante Digital JaponSushi Express  
 
-<img align="right" src="./img/logo.jpg" width="200" />
+<img align="right" src="./img/logo.jpg" width="150" />
 
 Este proyecto tiene como objetivo diseñar y crear la página web para un restaurante, aplicando los conocimientos adquiridos en HTML5, CSS3, CSS Layout (Flexbox & Grid) y utilizando componentes de Bootstrap. La página web constará de cuatro páginas hipervinculadas mínimas: Inicio, Carta, Contacto y galeria .
 
@@ -17,6 +17,8 @@ El proyecto constará de las siguientes vistas mínimas:
 -  Vista Carta: Aquí se mostrarán los diferentes platillos junto con sus precios.
 
 -  Vista Contacto: En esta página se proporcionará un formulario para que los clientes puedan contactar con la empresa y a su vez poder realizar su reserva.
+
+-   Vista Galeria: En esta página se proporcionará una serie se imagenes donde se pueden apreciar distintos platillos.
 
 ## ⌨️ Tecnologías Utilizadas ⌨️
 
